@@ -1,3 +1,12 @@
 {
-    "dart.flutterSdkPath": "/Users/developer/FlutterProject/hello_flutter/.fvm/flutter_sdk"
+  // 使用するFlutter SDKのパスを指定。
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // 検索対象からFVMのファイルを除外。
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // ファイル監視対象からFVMのファイルを除外。
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
 }
